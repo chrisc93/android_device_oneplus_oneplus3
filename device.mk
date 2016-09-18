@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    camera.msm8996 \
     Snap \
     libcamera_shim
 
