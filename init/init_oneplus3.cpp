@@ -117,7 +117,7 @@ void vendor_load_properties() {
         load_op3("ONEPLUS A3003");
     } else if (strstr(rf_version, "12") || strstr(rf_version, "22")
                 || strstr(rf_version, "32")) {
-        load_op3t("ONEPLUS A3010");
+        load_op3t("3T");
     }
 
     init_alarm_boot_properties();
