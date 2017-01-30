@@ -117,13 +117,13 @@ void vendor_load_properties() {
         load_op3("ONEPLUS A3003");
     } else if (strstr(rf_version, "12")) {
         /* America */
-        load_op3t("ONEPLUS A3000");
+        load_op3t("3T");
     } else if (strstr(rf_version, "22")) {
         /* Asia/Europe */
-        load_op3t("ONEPLUS A3003");
+        load_op3t("3T");
     } else if (strstr(rf_version, "32")) {
         /* Chinese */
-        load_op3t("ONEPLUS A3010");
+        load_op3t("3T");
     }
 
     init_alarm_boot_properties();
