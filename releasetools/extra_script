@@ -1,5 +1,8 @@
 ui_print(" ");
-ui_print("Chris' custom ResurrectionRemix for the OP3T!");
-ui_print("=============================================");
+ui_print("Removing persistent camera property:");
+ui_print("/data/property/persist.camera.HAL3.enabled");
+delete("/data/property/persist.camera.HAL3.enabled");
 ui_print(" ");
-ui_print("Copyright (C) 2017 - chris@csconley.com");
+ui_print("Multi HAL for camera is now enabled!");
+ui_print("If you have camera issues, wipe the data");
+ui_print("of ALL installed camera apps.");
