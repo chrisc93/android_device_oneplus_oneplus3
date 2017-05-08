@@ -229,5 +229,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# custom additions to updater-script
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/oneplus/oneplus3/releasetools/ota_from_target_files
+
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus3/BoardConfigVendor.mk
