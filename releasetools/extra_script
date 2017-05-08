@@ -1,0 +1,5 @@
+ui_print(" ");
+ui_print("Chris' custom ResurrectionRemix for the OP3T!");
+ui_print("=============================================");
+ui_print(" ");
+ui_print("Copyright (C) 2017 - chris@csconley.com");
